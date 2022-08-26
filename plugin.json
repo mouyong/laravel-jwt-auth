@@ -1,0 +1,12 @@
+{
+    "unikey": "LaravelJwtAuth",
+    "type": 1,
+    "name": "LaravelJwtAuth",
+    "description": "LaravelJwtAuth plugin made by mouyong",
+    "author": "mouyong",
+    "authorLink": "https://github.com/mouyong",
+    "version": "1.0.0",
+    "scene": [],
+    "accessPath": "",
+    "settingPath": null
+}
