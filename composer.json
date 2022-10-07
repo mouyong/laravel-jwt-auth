@@ -25,13 +25,5 @@
     "require": {
         "php": ">= 8.0",
         "tymon/jwt-auth": "dev-develop"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Plugins\\LaravelJwtAuth\\Providers\\LaravelJwtAuthServiceProvider"
-            ],
-            "aliases": []
-        }
     }
 }
