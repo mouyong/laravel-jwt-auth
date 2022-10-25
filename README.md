@@ -19,6 +19,16 @@ composer require mouyong/laravel-jwt-auth
 
 ## Usage
 
+单独使用登录功能是，请在 `auth()->login()` 时使用 Plugins\LaravelJwtAuth\Models\User，示例如下：
+
+```php
+use Plugins\LaravelJwtAuth\Models\User as JwtModelUser;
+
+$user = \App\Models\User::first();
+
+auth('api')->login(new JwtModelUser($user->toArray()));
+```
+
 ``` php
 // Usage description here
 ```
