@@ -12,5 +12,6 @@
     "providers": [
         "Plugins\\LaravelJwtAuth\\Providers\\LaravelJwtAuthServiceProvider"
     ],
+    "autoloadFiles": [],
     "aliases": []
 }
