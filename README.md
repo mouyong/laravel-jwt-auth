@@ -34,10 +34,6 @@ if (Hash::check($user->password, $inputPassword)) {
 }
 ```
 
-``` php
-// Usage description here
-```
-
 ### Testing
 
 ``` bash
