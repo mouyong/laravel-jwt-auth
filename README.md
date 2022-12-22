@@ -30,7 +30,7 @@ $user = \App\Models\User::first();
 if (Hash::check($user->password, $inputPassword)) {
     // get_class($user) !== config('auth.providers.api.model') 配置的模型时，
     // 需要将 $user 转换成配置的模型。后续验证才能通过登录验证。
-    auth('api')->login(new JwtModelUser($user->toArray()));
+    $token = auth('api')->login(new JwtModelUser($user->toArray()));
 }
 ```
 
